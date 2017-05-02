@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-reveal-md slides.md --theme night --highlightTheme tomorrow
+reveal-md slides.md --theme night --highlightTheme tomorrow $@
