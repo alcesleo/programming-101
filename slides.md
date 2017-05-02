@@ -321,6 +321,15 @@ Note:
 
 ---
 
+### Summary
+
+- Programming languages                    <!-- .element: class="fragment" -->
+- Wrote some code                          <!-- .element: class="fragment" -->
+- Learned some fundamental concepts        <!-- .element: class="fragment" -->
+- Scratched surface of tools and practices <!-- .element: class="fragment" -->
+
+---
+
 ## Write me anytime
 
 Note:
