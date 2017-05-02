@@ -36,6 +36,7 @@ Note:
 Note:
 - Nothing too abstract
 - First steps
+- More valuable to have a hands on experience than an abstract picture in your head
 
 ---
 
@@ -170,12 +171,14 @@ Now you need the left side
 
 ## Solve it together
 
+Note: Switch to repl.it tab
+
 ---
 
-## Vocabulary
+## Glossary
 
 Note:
-You don't need to understand everything here
+Basic concepts
 
 ---
 
@@ -214,18 +217,48 @@ Do something, a verb
 
 ---
 
-### Type
-
-- `String` (text)                       <!-- .element: class="fragment" -->
-- `Integer`, or `Fixnum` (whole number) <!-- .element: class="fragment" -->
-- `Float` (decimal number)              <!-- .element: class="fragment" -->
-- `Custom type` (defined by you)        <!-- .element: class="fragment" -->
+### Types
 
 Note:
+- We already saw a few of these without knowing
+- They are very important
+
+---
+
+#### String
+
+Note:
+- "Hello".class
+
+---
+
+#### Integer
+
+- Whole number
+- 1, 345, 7
+- A.K.A `Fixnum`
+
+Note:
+- 1 + 5
+- 6 / 2
 - 5 / 2
-- 0.5 + 0.5 => 1.0
-- 0.1 + 0.2 => wut
-- .class
+
+---
+
+#### Float
+
+- Decimal number
+- 1.0, 3.14, 7.777
+
+Note:
+- 1.0 + 2.0
+- 0.1 + 0.2
+
+---
+
+#### Custom types
+
+---
 
 ### Class
 
@@ -244,6 +277,7 @@ d.class
 ## Example
 
 Note:
+- Dog example with barking
 - In my editor, not on the website
 - Follow along if you want
 - More important to understand the general idea
@@ -280,15 +314,6 @@ Note: Dog minitest example.rb
 
 Note:
 - Biggest challenge at DaWanda
-
----
-
-### Process
-
-- Local development and testing
-- Code review
-- Testing in a production-like system (staging)
-- Deployment to production
 
 ---
 
