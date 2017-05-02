@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>reveal-md</title>
+        <link rel="stylesheet" href="./css/reveal.css">
+        <link rel="stylesheet" href="./css/theme/night.css" id="theme">
+        <link rel="stylesheet" href="./css/highlight/zenburn.css">
+        <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print">
+
+    </head>
+    <body>
+
+        <div class="reveal">
+            <div class="slides"><section  data-markdown><script type="text/template">## Preparation <!-- .element: style="color: red" -->
+
+<aside class="notes"><ul>
+<li>Open repl.it in a new tab</li>
+<li>Open speaker notes on laptop screen</li>
+<li>Fullscreen chrome with the slides</li>
+<li>Fullscreen a terminal next to chrome so you can cmd-tab to it</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Programming 101
+
+<aside class="notes"><ul>
+<li>Did everyone bring a computer?</li>
+<li>Fairly interactive workshop</li>
+<li>How many of you has ever written a line of code? 10?</li>
+<li>It can be a little overwhelming at first, but just stick with it and you will be fine!</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Goal
+
+- Basic understanding of how software is created
+- Write working code
+
+<aside class="notes"><ul>
+<li>DaWanda is a technical company</li>
+<li>Not everyone has a technical role</li>
+<li>Everyone is affected by that somehow</li>
+<li>Very diverse set of backgrounds, I&#39;ll do my best to make sure everyone learns something.</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Dip your toes in
+
+<aside class="notes"><ul>
+<li>Nothing too abstract</li>
+<li>First steps</li>
+<li>More valuable to have a hands on experience than an abstract picture in your head</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="img/snow-cat.gif" -->
+
+<aside class="notes"><p>What&#39;s happening?</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="img/cat-coder.gif" -->
+
+<aside class="notes"><p>More comfortable to try stuff</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+## No such thing as a stupid question
+
+<aside class="notes"><ul>
+<li>I might have a stupid answer</li>
+<li>Please raise your hand anytime</li>
+<li>If you think it&#39;s a stupid question, I probably forgot something important!</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Overview
+
+- **slides**: Introduction
+- **follow along**: Interactive examples
+- **exercise**: Try it yourself
+- **slides/demo**: Vocabulary, tools and practices
+
+<aside class="notes"><p>It&#39;s not set in stone, please let me know and I&#39;ll try to adapt to what you need.</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Programming language
+
+A language by humans, for humans.
+
+<aside class="notes"><ul>
+<li>Preconceptions about maths and binary</li>
+<li>Modern languages are pretty expressive</li>
+<li>Language skill</li>
+<li>Designed language, like Esperanto</li>
+<li>Programming is hard because design is hard</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Ruby
+
+![Ruby logo](img/ruby-logo.png) <!-- .element: style="width: 40%" -->
+
+<aside class="notes"><ul>
+<li>Most of DaWanda&#39;s code is in Ruby</li>
+<li>Generally a pleasant language</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
+<!-- .slide: data-background="img/corgi-train.gif" -->
+</script></section><section  data-markdown><script type="text/template">
+## Chat with your computer
+
+[repl.it/languages/ruby](https://repl.it/languages/ruby)
+
+
+<aside class="notes"><ul>
+<li>It might be a little wonky, but it doesn&#39;t require any setup</li>
+<li>The left is a text file, the right is a chat</li>
+<li>1 + 1</li>
+<li>2 ** 1000</li>
+<li>five</li>
+<li>five = 5</li>
+<li>six = 6</li>
+<li>five + six</li>
+<li>&quot;Hello&quot; + &quot;DaWanda&quot;</li>
+<li>&quot;Hello&quot; + &quot; DaWanda&quot;</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Code example
+
+What does this do?
+
+```
+age = 16
+
+if age >= 18
+  puts "You can get a driver's license 😎"
+else
+  puts "Sorry, you have to wait #{18 - age} years 😞"
+end
+```
+</script></section><section  data-markdown><script type="text/template">
+## Exercise
+
+Write a program that asks you if you want an ice cream:
+
+```
+Do you want ice cream?
+> yes
+Too bad, there is none!
+```
+
+<aside class="notes"><p>Yonatan will also help</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Tips
+
+- Check if two things are equal: `1 == 1`
+- User input: `gets.chomp`
+
+<aside class="notes"><p>Now you need the left side</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+## 10 minutes left
+</script></section><section  data-markdown><script type="text/template">
+## 5 minutes left
+</script></section><section  data-markdown><script type="text/template">
+## Solve it together
+
+<aside class="notes"><p>Switch to repl.it tab</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Glossary
+
+<aside class="notes"><p>Basic concepts</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+### String = Text
+
+"This is a string"
+
+<aside class="notes"><p>&quot;String of characters&quot;</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+### Comments
+
+```ruby
+# The computer ignores everything after a #
+# Use it to write things only for humans
+if 1 + 2 == 3
+  # 1 + 2 is definitely 3, like for sure
+  puts "yep!"
+end
+```
+</script></section><section  data-markdown><script type="text/template">
+### Method
+
+```ruby
+def do_something
+  # Normal code goes here
+end
+```
+
+<aside class="notes"><p>Do something, a verb</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+### Types
+
+<aside class="notes"><ul>
+<li>We already saw a few of these without knowing</li>
+<li>They are very important</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
+#### String
+
+<aside class="notes"><ul>
+<li>&quot;Hello&quot;.class</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
+#### Integer
+
+- Whole number
+- 1, 345, 7
+- A.K.A `Fixnum`
+
+<aside class="notes"><ul>
+<li>1 + 5</li>
+<li>6 / 2</li>
+<li>5 / 2</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
+#### Float
+
+- Decimal number
+- 1.0, 3.14, 7.777
+
+<aside class="notes"><ul>
+<li>1.0 + 2.0</li>
+<li>0.1 + 0.2</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
+#### Custom types
+</script></section><section  data-markdown><script type="text/template">
+### Class
+
+```ruby
+class Dog
+
+end
+```
+
+<aside class="notes"><p>d = Dog.new
+d.class</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Example
+
+<aside class="notes"><ul>
+<li>Dog example with barking</li>
+<li>In my editor, not on the website</li>
+<li>Follow along if you want</li>
+<li>More important to understand the general idea</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Code organisation
+
+Writing small amounts of code is easy, organising large amounts of code is hard.
+</script></section><section  data-markdown><script type="text/template">
+### Who did what, when?
+
+Version Control: Git
+
+<aside class="notes"><p>Show log and diff</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+### Does it still work?
+
+Automated tests
+
+<aside class="notes"><p>Dog minitest example.rb</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+### Technical Debt
+
+- software needs to be maintained and updated <!-- .element: class="fragment" -->
+- you can borrow productivity tomorrow        <!-- .element: class="fragment" -->
+- that debt grows exponentially               <!-- .element: class="fragment" -->
+
+<aside class="notes"><ul>
+<li>Biggest challenge at DaWanda</li>
+</ul>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Write me anytime
+
+<aside class="notes"><p>I&#39;m happy to try to explain whatever you might need</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Slides
+
+[github.com/alcesleo/programming-101](https://github.com/alcesleo/programming-101)
+</script></section><section  data-markdown><script type="text/template">
+<!-- CSS -->
+<style>
+.reveal section img {
+    border: none;
+    box-shadow: none;
+}
+
+body {
+    background-color: #ffea00;
+}
+
+.reveal,
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+    color: black;
+}
+
+.slide-background.present {
+    background-size: contain;
+}
+</style>
+</script></section></div>
+        </div>
+
+        <script src="./lib/js/head.min.js"></script>
+        <script src="./js/reveal.js"></script>
+
+        <script>
+            function extend() {
+              var target = {};
+              for (var i = 0; i < arguments.length; i++) {
+                var source = arguments[i];
+                for (var key in source) {
+                  if (source.hasOwnProperty(key)) {
+                    target[key] = source[key];
+                  }
+                }
+              }
+              return target;
+            }
+
+            // Optional libraries used to extend on reveal.js
+            var deps = [
+              { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+              { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+              { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+              { src: './plugin/zoom-js/zoom.js', async: true },
+              { src: './plugin/notes/notes.js', async: true },
+              { src: './plugin/math/math.js', async: true }
+            ];
+
+            // default options to init reveal.js
+            var defaultOptions = {
+              controls: true,
+              progress: true,
+              history: true,
+              center: true,
+              transition: 'default', // none/fade/slide/convex/concave/zoom
+              dependencies: deps
+            };
+
+            // options from URL query string
+            var queryOptions = Reveal.getQueryHash() || {};
+
+            var options = {"transition":"slide"};
+            options = extend(defaultOptions, options, queryOptions);
+            Reveal.initialize(options);
+        </script>
+        
+    </body>
+</html>
