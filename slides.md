@@ -326,7 +326,7 @@ I'm happy to try to explain whatever you might need
 
 ## Slides
 
-[github.com/alcesleo/programming-101](https://github.com/alcesleo/programming-101)
+[alcesleo.github.io/programming-101/](https://alcesleo.github.io/programming-101/)
 
 ---
 
