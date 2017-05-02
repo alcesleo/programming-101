@@ -4,3 +4,4 @@ cp -r img/ _site
 git add _site
 git commit -m "Update statically generated site"
 git subtree push --prefix _site origin gh-pages
+open https://alcesleo.github.io/programming-101
