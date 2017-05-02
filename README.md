@@ -13,6 +13,9 @@ npm install -g reveal-md
 
 # Open the slides
 ./bin/slides
+
+# Release them to GitHub pages
+./bin/release
 ```
 
 Press `s` to open the speaker notes.
