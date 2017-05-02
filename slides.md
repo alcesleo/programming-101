@@ -317,6 +317,10 @@ Note:
 
 ---
 
+<!-- .slide: data-background="img/kitten.gif" -->
+
+---
+
 ## Write me anytime
 
 Note:
@@ -328,7 +332,6 @@ I'm happy to try to explain whatever you might need
 
 [alcesleo.github.io/programming-101/](https://alcesleo.github.io/programming-101/)
 
----
 
 <!-- CSS -->
 <style>
