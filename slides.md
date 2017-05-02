@@ -24,10 +24,10 @@ Note:
 - Write working code
 
 Note:
-- DaWanda is a technical company, though everyone doesn't have a technical role,
-  everyone are affected by that somehow.
+- DaWanda is a technical company
+- Not everyone has a technical role
+- Everyone is affected by that somehow
 - Very diverse set of backgrounds, I'll do my best to make sure everyone learns something.
-- Software/hardware?
 
 ---
 
@@ -58,7 +58,7 @@ More comfortable to try stuff
 Note:
 - I might have a stupid answer
 - Please raise your hand anytime
-- If you think it's a stupid question, I probably missed something important!
+- If you think it's a stupid question, I probably forgot something important!
 
 ---
 
@@ -74,23 +74,15 @@ It's not set in stone, please let me know and I'll try to adapt to what you need
 
 ---
 
-## What is it?
-
-Note:
-Solving problems, and teaching the computer how to do it
-You do that with a programming language
-
----
-
 ## Programming language
 
 A language by humans, for humans.
 
 Note:
-- Computers can't actually understand a programming language, they are only for
-  humans, and have to be translated into something the computer can read.
+- Preconceptions about maths and binary
+- Modern languages are pretty expressive
 - Language skill
-- Esperanto
+- Designed language, like Esperanto
 - Programming is hard because design is hard
 
 ---
@@ -153,6 +145,8 @@ Do you want ice cream?
 > yes
 Too bad, there is none!
 ```
+
+Note: Yonatan will also help
 
 ---
 
@@ -228,9 +222,10 @@ Do something, a verb
 - `Custom type` (defined by you)        <!-- .element: class="fragment" -->
 
 Note:
-0.5 + 0.5 => 1.0
-0.1 + 0.2 => wut
-.class
+- 5 / 2
+- 0.5 + 0.5 => 1.0
+- 0.1 + 0.2 => wut
+- .class
 
 ### Class
 
@@ -249,7 +244,9 @@ d.class
 ## Example
 
 Note:
-Follow along if you want, but if you just understand the general idea that's fine
+- In my editor, not on the website
+- Follow along if you want
+- More important to understand the general idea
 
 ---
 
@@ -261,7 +258,7 @@ Writing small amounts of code is easy, organising large amounts of code is hard.
 
 ### Who did what, when?
 
-Git
+Version Control: Git
 
 Note: Show log and diff
 
@@ -275,20 +272,14 @@ Note: Dog minitest example.rb
 
 ---
 
-### Challenges
-
-### Software rot
-
 ### Technical Debt
 
-### Version Control
+- software needs to be maintained and updated <!-- .element: class="fragment" -->
+- you can borrow productivity tomorrow        <!-- .element: class="fragment" -->
+- that debt grows exponentially               <!-- .element: class="fragment" -->
 
-### Tools
-
-- Git
-- Unit tests
-- QA
-- Code review
+Note:
+- Biggest challenge at DaWanda
 
 ---
 
@@ -301,7 +292,10 @@ Note: Dog minitest example.rb
 
 ---
 
-## Ask me anything
+## Write me anytime
+
+Note:
+I'm happy to try to explain whatever you might need
 
 ---
 
