@@ -210,6 +210,9 @@ end
 def do_something
   # Normal code goes here
 end
+
+# Then we can run that code at any time
+do_something
 ```
 
 Note:
@@ -225,14 +228,14 @@ Note:
 
 ---
 
-#### String
+### String
 
 Note:
 - "Hello".class
 
 ---
 
-#### Integer
+### Integer
 
 - Whole number
 - 1, 345, 7
@@ -245,7 +248,7 @@ Note:
 
 ---
 
-#### Float
+### Float
 
 - Decimal number
 - 1.0, 3.14, 7.777
@@ -256,7 +259,7 @@ Note:
 
 ---
 
-#### Custom types
+### Custom types
 
 ---
 
@@ -266,6 +269,8 @@ Note:
 class Dog
 
 end
+
+fido = Dog.new
 ```
 
 Note:
@@ -286,7 +291,11 @@ Note:
 
 ## Code organisation
 
-Writing small amounts of code is easy, organising large amounts of code is hard.
+- Writing small amounts of code is easy
+- Organising large amounts of code is hard
+
+Note:
+I just want to touch on a few tools we have to deal with this
 
 ---
 
@@ -309,7 +318,7 @@ Note: Dog minitest example.rb
 ### Technical Debt
 
 - software needs to be maintained and updated <!-- .element: class="fragment" -->
-- you can borrow productivity tomorrow        <!-- .element: class="fragment" -->
+- you can borrow productivity from tomorrow   <!-- .element: class="fragment" -->
 - that debt grows exponentially               <!-- .element: class="fragment" -->
 
 Note:
@@ -321,7 +330,7 @@ Note:
 
 ---
 
-### Summary
+## Summary
 
 - Programming languages                    <!-- .element: class="fragment" -->
 - Wrote some code                          <!-- .element: class="fragment" -->
@@ -340,6 +349,10 @@ I'm happy to try to explain whatever you might need
 ## Slides
 
 [alcesleo.github.io/programming-101/](https://alcesleo.github.io/programming-101/)
+
+Note:
+- I can stay and answer questions
+- Thank you for your time
 
 
 <!-- CSS -->
