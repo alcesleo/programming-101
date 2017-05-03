@@ -317,12 +317,12 @@ Note: Dog minitest example.rb
 
 ### Technical Debt
 
-- software needs to be maintained and updated <!-- .element: class="fragment" -->
-- you can borrow productivity from tomorrow   <!-- .element: class="fragment" -->
-- that debt grows exponentially               <!-- .element: class="fragment" -->
+- Software needs to be maintained and updated <!-- .element: class="fragment" -->
+- You can borrow productivity from tomorrow   <!-- .element: class="fragment" -->
+- That debt grows exponentially               <!-- .element: class="fragment" -->
 
 Note:
-- Biggest challenge at DaWanda
+- Biggest technical challenge at DaWanda
 
 ---
 
